@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action ='/login' method='get'>
+        <!--
+        <label for='username'>Имя персонажа:
+        </label>
+&lt;!&ndash;        <input type='password' id="username" name="username"><br>&ndash;&gt;
+        <label for='password'>Пароль персонажа:
+        </label>
+        <input type='text' id="password" name="password"><br>
+        <input type='submit' value="Войти">-->
+
+        <input type="password" id="password" min="12" max="1213" name="password" placeholder="Password" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least one number, one uppercase letter, one lowercase letter, and at least 8 or more characters" required>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>

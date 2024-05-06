@@ -156,6 +156,14 @@ HTML - язык разметки, Язык декларативный,  Сема
 3. боковая панель, которая содержит ссылки на ежемесячные архивы и категории;
 4. «подвал» для дополнительных ссылок на менее важные страницы.
 
+### Div, Aside, Section, Article
+— Тег div — это универсальный элемент для группировки элементов.
+— Элемент main необходим для разметки части страницы, в которой
+находится ее основной контент.
+— Элемент aside определяет область страницы, которая дополняет ее основной контент.
+— Элемент section служит для создания раздела страницы, смысл которого определяется заголовком.
+— Элемент article разделяет страницу на независимые области, которые можно вынести из своего логического окружения, и они не потеряют свой смысл.
+
 ### div, article or section?
 
 Чтобы определиться, какой из элементов выбрать, можно использовать алгоритм:
@@ -164,6 +172,8 @@ article
 — Если части содержимого объединены общим смыслом, то выбираем section
 — Наконец, если нет никакого семантического значения, то выбираем div
 
+
+
 # Lecture 3
 ### HTML forms
 HTML forms are used to get information from users. 
@@ -171,6 +181,31 @@ HTML forms are used to get information from users.
 They are widely used in webpages or apps for surveys or registration processes.
 
 HTML form basics include the common HTML elements, tags, attributes, concepts, or best practices required for you to create good HTML forms.
+
+### Sample form
+Тег <form> используется для создания HTML-формы. 
+
+В нём находится всё содержимое формы: поля для ввода, подписи к этим полям и кнопка отправки.
+
+```
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action ='/login' method='post'>
+        <label for='username'>Имя персонажа:
+        </label>
+        <input type='text' id="username" name="username"><br>
+        <label for='password'>Пароль персонажа:
+        </label>
+        <input type='text' id="password" name="password"><br>
+        <input type='submit' value="Войти">
+    </form>
+</body>
+</html>
+```
 
 ### Practice 2
 Go to folder practice2
