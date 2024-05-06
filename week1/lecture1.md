@@ -125,6 +125,12 @@ Let's consider example below:
 This element specifies the document's character encoding — the character set that the document is permitted to use. utf-8 is a universal character set that includes pretty much any character from any human language.
 If you set your character encoding to ISO-8859-1, for example (the character set for the Latin alphabet), your page rendering may appear all messed up:
 
+#### Meta viewport tag
+
+Unless directed otherwise via HTML or CSS cues, mobile browsers render web pages at a desktop screen width (~1000px), then "zooms out" until the entire page fits on screen.
+```
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
 
 ### Practice 1
 Go to folder practice1
