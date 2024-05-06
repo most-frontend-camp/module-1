@@ -136,11 +136,41 @@ Unless directed otherwise via HTML or CSS cues, mobile browsers render web pages
 Go to folder practice1
 Write down from scratch the sample.html
 
-
 # Lecture 2
 
-### HTML in forms
+### HTML Structure
 
+HTML - язык разметки, Язык декларативный,  Семантика
+
+Говоря же о семантике в HTML — обычно имеют ввиду использование именно смысловых тегов, вместо обычных div.
+
+Пример страницы с div - `indexdiv.html`
+
+При написании содержимого в HTML, такого как абзацы, списки или ссылки, вы наделяете смыслом свой текст. Но вы, возможно, захотите сгруппировать некоторые из этих элементов вместе.
+
+### HTML Core Tags
+Например, веб-страницу блога можно разделить на четыре части:
+
+1. «шапка», которая похожа на каждой странице и является главной навигацией по сайту;
+2. основное содержание, что меняется для каждой страницы: список статей, одна статья с комментариями, страница «о нас» и др.;
+3. боковая панель, которая содержит ссылки на ежемесячные архивы и категории;
+4. «подвал» для дополнительных ссылок на менее важные страницы.
+
+### div, article or section?
+
+Чтобы определиться, какой из элементов выбрать, можно использовать алгоритм:
+— Будет ли содержимое иметь осмысленное значение само по себе, например, при публикации в ленте новостей? Если да, то выбираем
+article
+— Если части содержимого объединены общим смыслом, то выбираем section
+— Наконец, если нет никакого семантического значения, то выбираем div
+
+# Lecture 3
+### HTML forms
+HTML forms are used to get information from users. 
+
+They are widely used in webpages or apps for surveys or registration processes.
+
+HTML form basics include the common HTML elements, tags, attributes, concepts, or best practices required for you to create good HTML forms.
 
 ### Practice 2
 Go to folder practice2
