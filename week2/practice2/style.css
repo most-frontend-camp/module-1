@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #222222;
+}
+
+p {
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.course {
+    width: 960px;
+}
+
+.course-preview {
+    width: 300px;
+    padding: 50px;
+}
+
+.course-info {
+    width: 660px;
+    padding: 40px 60px;
+    /*
+        top and bottom padding are 40
+        right left 60
+    */
+
+}
+.course-img {
+
+}
+
+.course-name {
+
+}

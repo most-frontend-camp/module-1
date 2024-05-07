@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./htmleon/styles.css"></head>
+</head>
+<body>
+<header>
+  <h1>My Website</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="https://most-frontend-camp.github.io/htmleon.github.io/#">Home</a></li>
+    <li><a href="https://most-frontend-camp.github.io/htmleon.github.io/#">About</a></li>
+    <li><a href="https://most-frontend-camp.github.io/htmleon.github.io/#">Contact</a></li>
+  </ul>
+</nav>
+<main>
+  <h2>Welcome to My Website</h2>
+  <p>This is a simple website.</p>
+  <button onclick="addCSS()" id="button">Toggle CSS</button>
+</main>
+<footer>
+  <p>Copyright © Most Camp</p>
+</footer>
+<script>
+  let counter = 0
+  function addCSS() {
+    counter++
+    if (counter % 2 !== 0) {
+      document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> \n<link rel="stylesheet" href="./htmleon/styles.css" />'
+    } else {
+      document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> '
+    }
+  }
+</script>
+</body>
+</html>
