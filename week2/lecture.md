@@ -109,4 +109,6 @@ Box Model — это механизм макета CSS, который веб-б
 [Запись урока по блочной модели тут](https://drive.google.com/file/d/1UcsEhyk0wqL2NJ_Cfdt6_n5C2MixxHug/view)
 
 ### Flex Box
+
+
 ### Grid
