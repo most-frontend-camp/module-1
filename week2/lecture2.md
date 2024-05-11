@@ -34,3 +34,5 @@ CSS предоставляет множество инструментов и с
 * align-content
 * flex-direction
 * flex-flow
+
+https://codepen.io/Beibarys-Neumann/pen/oNRNGya

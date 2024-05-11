@@ -67,17 +67,16 @@ Another html tags:
 
 Each HTML element is categorized by the HTML spec into one of
 three-ish categories:
-1. block: large blocks of content, has height and width <p>, <h1>, <blockquote>, <ol>, <ul>, <table>
-2. inline: small amount of content, no height or width <a>, <em>, <strong>,<br> also,
- - inline block: inline content with height and width <img>
-3. metadata: information about the page, usually not visible <title>, <meta>
+1. block: large blocks of content, has height and width` <p>, <h1>, <blockquote>, <ol>, <ul>, <table>`
+2. inline: small amount of content, no height or width `<a>, <em>, <strong>,<br>` also, inline block: inline content with height and width `<img>`
+3. metadata: information about the page, usually not visible` <title>, <meta>`
 
 ### 1. Block elements:
 Some info: 
 - Take up the full width of the page (flows top to bottom)
 - Have a height and width
 - Can have block or inline elements as children
-Examples are <p>, <h1>, <blockquote>, <ol>, <ul>, <table>.
+Examples are` <p>, <h1>, <blockquote>, <ol>, <ul>, <table>`.
 
 Code snippet for block elements
 ```javascript
@@ -99,7 +98,7 @@ Some info:
 
 Code snippet for inline elements
 
-```javascript
+```
 <strong>Web programming resources:</strong>
 <a href="https://google.com://google.com">CS 193X</a>
 <a href="https://developer.mozilla.org/en-US/">MDN</a>
@@ -116,11 +115,11 @@ Examples: <img>, any element with display: inline-block;
 
 #### Meta Data
 Metadata is — in its very simplest definition — data that describes data. 
-For example, an HTML document is data, but HTML can also contain metadata in its <head> element that describes the document — for example who wrote it, and its summary.
-Examples: <head>,  <title>.
+For example, an HTML document is data, but HTML can also contain metadata in its `<head>` element that describes the document — for example who wrote it, and its summary.
+Examples:` <head>,  <title>`.
 
 Let's consider example below:
-<meta charset="utf-8" />
+`<meta charset="utf-8" />`
 
 This element specifies the document's character encoding — the character set that the document is permitted to use. utf-8 is a universal character set that includes pretty much any character from any human language.
 If you set your character encoding to ISO-8859-1, for example (the character set for the Latin alphabet), your page rendering may appear all messed up:
@@ -140,7 +139,7 @@ Write down from scratch the sample.html
 
 ### HTML Structure
 
-HTML - язык разметки, Язык декларативный,  Семантика
+HTML - язык разметки, Язык декларативный, Семантика
 
 Говоря же о семантике в HTML — обычно имеют ввиду использование именно смысловых тегов, вместо обычных div.
 
@@ -188,23 +187,23 @@ HTML form basics include the common HTML elements, tags, attributes, concepts, o
 В нём находится всё содержимое формы: поля для ввода, подписи к этим полям и кнопка отправки.
 
 ```
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <form action ='/login' method='post'>
-        <label for='username'>Имя персонажа:
-        </label>
-        <input type='text' id="username" name="username"><br>
-        <label for='password'>Пароль персонажа:
-        </label>
-        <input type='text' id="password" name="password"><br>
-        <input type='submit' value="Войти">
-    </form>
-</body>
-</html>
+  <html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+      <title>Document</title>
+  </head>
+  <body>
+      <form action ='/login' method='post'>
+          <label for='username'>Имя персонажа:
+          </label>
+          <input type='text' id="username" name="username"><br>
+          <label for='password'>Пароль персонажа:
+          </label>
+          <input type='text' id="password" name="password"><br>
+          <input type='submit' value="Войти">
+      </form>
+  </body>
+  </html>
 ```
 
 ### Practice 2
