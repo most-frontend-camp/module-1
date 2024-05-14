@@ -7,9 +7,9 @@
 ### What is the HTML?
 
 HTML (Hypertext Markup Language)
-- Describes the content and structure of a web page; not
-  a programming language.
-- Made up of building blocks called elements.
+- Describes the content and structure of a web page
+- not a programming language
+- Made up of building blocks called elements
 
 ```javascript
 <p>
@@ -40,7 +40,10 @@ body - Contents that render in the viewport of the browser
 
 ### HTML Elements
 
-An element usually has start and ending tags (<p> and </p>), content: stuff in between start and end tags
+An element usually has 
+- start tags (`<p>`)
+- ending tags (`</p>`)
+- content: stuff in between start and end tags
 
 ```javascript
 <p>
@@ -55,13 +58,13 @@ Also,
 
 Another html tags:
 
-1. [ ] Top-level heading h1, h2, ... h6  - <h1>Moby Dick</h1>
-2. [ ] Paragraph - <p>Call me Ishmael.</p>
-3. [ ] Line break - since feeling is first<br/> who pays any attention
-4. [ ] Image - <img src="cover.png" />
-5. [ ] Link - <a href="google.com">click here!</a>
-6. [ ] Strong (bold) - <strong>Be BOLD</strong>
-7. [ ] Emphasis (italic) - He's my <em>brother</em> and all
+1. [ ] Top-level heading `h1, h2, ... h6  - <h1>Moby Dick</h1>`
+2. [ ] Paragraph - `<p>Call me Ishmael.</p>`
+3. [ ] Line break - since feeling is first `<br/>` who pays any attention
+4. [ ] Image - `<img src="cover.png" />`
+5. [ ] Link - `<a href="google.com">click here!</a>`
+6. [ ] Strong (bold) - `<strong>Be BOLD</strong>`
+7. [ ] Emphasis (italic) - `He's my <em>brother</em>` and all
 
 ### HTML Types
 
@@ -93,9 +96,8 @@ Some info:
 - Cannot have a block element child
 - Cannot be positioned (i.e. CSS properties like float and position do not apply to inline elements)
   - Must position its containing block element instead
-
-  - Examples are <a>, <em>, <strong>, <br>
-
+  - Examples are` <a>, <em>, <strong>, <br>
+`
 Code snippet for inline elements
 
 ```
