@@ -1,4 +1,6 @@
-# Week 2
+# Week 3
+
+## Lecture 1
 
 ### Introduction to flexbox
 
@@ -34,6 +36,8 @@ CSS предоставляет множество инструментов и с
 * flex-flow
 
 https://codepen.io/Beibarys-Neumann/pen/oNRNGya
+
+## Lecture 2
 
 ### Медиазапросы
 
