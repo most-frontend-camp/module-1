@@ -4,7 +4,7 @@ Projects:
 1. Calculator
 2. Personal website, look at folder2
 3. Team website, look at folder2
-
+4. Pricing table, using flex
 
 ### Deliverables
 * One HTML file for the structure of the website
