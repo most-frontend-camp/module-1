@@ -1,0 +1,21 @@
+p.fish {
+    color: rebeccapurple;
+    font-size: 18px;
+    background-color: whitesmoke;
+    border: 3px dashed rgba(170, 50, 220, .6);
+}
+
+p.plant {
+    color: blue;
+    font-size: 18px;
+    background-color: rgb(186, 186, 217);
+     /* border: 3px dotted black; */
+    border-width: 12px;
+    border-style: double;
+    border-color: black;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
