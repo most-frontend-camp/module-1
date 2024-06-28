@@ -1,0 +1,54 @@
+input:focus {
+    background-color: darkorange;
+}
+select:focus {
+    background-color: aqua;
+}
+form {
+    font-size: large;
+}
+
+button {
+    border-radius: 10px;
+    color: green;
+    border: 2px solid firebrick;
+    background-color: yellow;
+}
+
+button:hover{
+    background-color: bisque;
+}
+
+
+/* 
+a:link {
+    color: green;
+    text-decoration-color: darkmagenta;
+}
+a:visited {
+    color: blue;
+    text-decoration-color: pink;
+
+}
+.main-title, .title {
+    position: relative;
+    color: red;
+    font-weight: 500;
+}
+
+
+.main-title::before, 
+.title::before {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+
+    border-radius: 3px;
+    background-color: black;
+    font-weight: 500;
+    z-index: -1;
+
+}
+*/
