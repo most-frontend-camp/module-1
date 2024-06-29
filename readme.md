@@ -13,6 +13,9 @@
 5. CSS - media queries
 6. Introduction to JS part1: variables, primitives and objects
 7. Introduction to JS part2: functions and scope
+8. Introduction to Git
+9. How to Google
+10. Linux commands
 
 
 Additional modules:
