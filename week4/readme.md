@@ -36,3 +36,13 @@ for Windows - [Youtube tutorial if you need](https://www.youtube.com/watch?v=iYk
 `git commit -m "commit message"` - для фиксации наших изменений
 
 `git push` - для фиксации наших изменений
+
+
+### Your template website
+
+1. Go to github
+2. Create a repo
+3. Create local repo
+4. Push files there using git init, add , commit, remote add
+5. Rename the repo so repo-name.github.io and Update pages in settings from main to save and wait 
+6. Check your website at https://most-frontend-camp.github.io/web-access-demo.github.io/
